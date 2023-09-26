@@ -57,11 +57,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Vet clinic database] <a name="about-project"></a>
+# 📖 [medical clinic database] <a name="about-project"></a>
 
-> In this project, I use a relational database to create the initial data structure for a vet clinic. I create a table to store animals's information, insert some data into it, and query it.
+> In this project, I use a relational database to create the initial data structure for  Medical clinic . I create a table to store patient's information, insert some data into it, and query it.
 
-**[Vet clinic database]** is a relational database create to store animals's information, insert some data into it, and query it.
+**[medical clinic database]** this is a medical database where we can track patients medical history from previous dates and institution where admitted.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -79,7 +79,7 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **[Create database]**
-- **[Insert and query data in SQL]**
+- **[modify database to many-many]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +89,7 @@ After you're finished please remove all the comments and instructions!
 
 To get a local copy up and running, follow these steps.
 
-- Clone the [project using github](https://github.com/jecode93/vet-clinic-database.git)
+- Clone the [project using github](https://github.com/hetrox8/medics_db.git)
 
 
 
@@ -151,9 +151,9 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add animals owner table]**
-- [ ] **[Add clinic employee table]**
-- [ ] **[Add visits table]**
+- [ ] **[Add patients table]**
+- [ ] **[Add medical histories table]**
+- [ ] **[Add invoices table]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
