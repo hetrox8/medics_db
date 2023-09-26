@@ -49,3 +49,10 @@ CREATE TABLE invoice_treatment_junction_ids (
     treatment_id INT REFERENCES treatments(id),
     PRIMARY KEY (id)
 );
+
+-- Add index for tables
+CREATE INDEX ON medical_histories (patient_id);
+CREATE INDEX ON invoices (medical_history_id);
+
+CREATE INDEX ON invoice_treatment_junction_ids (invoice_id);
+CREATE INDEX ON invoice_treatment_junction_ids (treatment_id);
