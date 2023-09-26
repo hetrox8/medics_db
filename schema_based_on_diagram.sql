@@ -40,4 +40,3 @@ create TABLE treatments (
     type varchar(50),
     name varchar(35)
 )
-
